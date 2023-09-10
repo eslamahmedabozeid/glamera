@@ -1,0 +1,189 @@
+.image_background {
+    background-image: url('../../../assets/Group_442x.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 72px;
+    min-height: 800px;
+    background-size: cover;
+}
+
+.grids {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.images h2 {
+    text-align: left;
+    font: normal normal 600 28px/37px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 104px;
+    margin-bottom: 24px;
+}
+
+.images p {
+    text-align: left;
+    font: normal normal normal 16px/28px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.75;
+}
+
+.pragraph {
+    text-align: right;
+    margin-top: 50px;
+    color: #38383880;
+    font: normal normal normal 14px/28px Poppins;
+    letter-spacing: 0px;
+    /* font-size: 20px; */
+    font-family: inherit;
+}
+
+.start_text {
+    margin-top: 36px;
+}
+
+.pragraph a {
+    color: #635CA8;
+    font-weight: 600;
+    /* font-size: 20px; */
+    font-family: inherit;
+    font: normal normal 600 14px/28px Poppins;
+}
+
+.flexd {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.start_text h1 {
+    letter-spacing: 0px;
+    color: #454C66;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: inherit;
+    opacity: 1;
+}
+
+.start_text p {
+    width: 354px;
+    font: normal normal normal 16px/28px Poppins;
+    letter-spacing: 0px;
+    color: #747A88;
+    margin-top: 16px;
+}
+
+.back img {
+    padding-bottom: 24px;
+}
+
+label {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #454C66;
+    font-size: 14px;
+    font-family: inherit;
+    opacity: 1;
+    font: normal normal normal 14px/28px Poppins;
+}
+
+input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #B4ACE5;
+    border-radius: 4px;
+    /* width: 308px; */
+    height: 48px;
+    padding: 16px;
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #B7BEC9;
+    opacity: 1;
+    margin-top: 8px;
+}
+
+.flexd {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+select.form-select {
+    border: 1px solid #D0D5DE;
+    border-radius: 4px;
+    height: 48px;
+    text-align: left;
+    font: normal normal normal 12px/28px Poppins;
+    letter-spacing: 0px;
+    color: #B7BEC9;
+    opacity: 1;
+    margin-top: 8px;
+}
+
+.radio_button {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 48px;
+    align-items: center;
+}
+
+.form-check-input[type=radio] {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    margin-right: 8px;
+}
+
+.form-check label {
+    text-align: left;
+    font: normal normal normal 14px/28px Poppins;
+    letter-spacing: 0px;
+    color: #454C66;
+    opacity: 1;
+    padding-top: 2px;
+}
+
+.submit_button {
+    text-align: right;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 68px;
+}
+
+.send {
+    background: #635CA8 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 192px;
+    height: 48px;
+    margin-top: 24px;
+    border: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.error-message {
+    font: normal normal normal 10px/28px Poppins !important;
+    letter-spacing: 0px !important;
+    color: #F3446C !important;
+    opacity: 1 !important;
+    margin: 0 !important;
+}
+
+@media(max-width:787px) {
+    .image_background {
+        min-height: auto;
+    }
+    .radio_button {
+        display: block;
+    }
+}
